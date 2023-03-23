@@ -2,37 +2,37 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "The fact that must be deemed while employing Kerberos authentication is________ ",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": " Kerberos can be susceptible to man-in-the-middle attacks to gain unauthorized access.",
+        "b": " Kerberos tickets can be spoofed using replay attacks to network resources.",
+        "c": " Kerberos requires a centrally managed database of all user and resource passwords.",
+        "d": "Kerberos uses clear text passwords"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is the purpose of the authenticator in the Kerberos protocol? ",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To prove the user’s identity to the KDC",
+        "b": "To prove the user’s identity to the TGS",
+        "c": "To request a new session key.",
+        "d": "To prove the user’s identity to the resource server."
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+     "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Kerberos is a system used to throttle users abusing their access to a distributed file system.  ",
+      "answers": {
+        "a": "true",
+        "b": "false"
+        
       },
-      "correctAnswer": "c",
+       
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
