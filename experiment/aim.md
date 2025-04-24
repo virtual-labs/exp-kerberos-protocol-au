@@ -1,2 +1,2 @@
 ### Aim of the experiment
-To understand the working of the Kerberos protocol. This exercise serves to reinforce student understanding of the working of the Kerberos protocol through an interactive simulation 
+To understand the Kerberos protocol through an interactive simulation that reinforces students’ understanding of secure mutual authentication.
