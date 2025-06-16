@@ -7,10 +7,10 @@ Kerberos uses **[symmetric key cryptography](https://en.wikipedia.org/wiki/Symme
 When a user logs in, the following steps occur:
 
 1. **Request for a Ticket**  
-   The client sends a request to the Authentication Server (AS), including the user's identity and a timestamp, to access a specific network service.
+   The client requests a ticket from the Kerberos Authentication Server (AS) to access a specific network service, sending the user's identity and a timestamp.
 
 2. **Authentication Server Response**  
-   The AS responds with a **Ticket Granting Ticket (TGT)** and a **session key**, both encrypted using the user's password. The **[session key](https://en.wikipedia.org/wiki/Session_key)** is a temporary cryptographic key used to secure communication between the user and the ticket-granting system.
+   The AS responds with a **Ticket Granting Ticket (TGT)** and a **[session key](https://en.wikipedia.org/wiki/Session_key)**, both encrypted using the user's password. The session key is a temporary cryptographic key used to secure communication between the user and the ticket-granting system.
 
 3. **Request for a Service Ticket**  
    The client then sends the TGT and a request for a service ticket to the **Ticket Granting Server (TGS)**.

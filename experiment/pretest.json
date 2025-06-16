@@ -25,7 +25,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "In Kerberos, the client sends a to the key distribution centre to access a certain resource.  ",
+      "question": "In Kerberos, what does the client send to the Key Distribution Center to access a certain resource?",
       "answers": {
         "a": "token",
         "b": "ticket",
