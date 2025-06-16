@@ -14,12 +14,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "What is the purpose of the authenticator in the Kerberos protocol? ",
+      "question": "What is the purpose of the authenticator in the Kerberos protocol?",
       "answers": {
-        "a": "To prove the user’s identity to the KDC",
-        "b": "To prove the user’s identity to the TGS",
-        "c": "To request a new session key.",
-        "d": "To prove the user’s identity to the resource server."
+        "a": "To prove the user's identity to the KDC",
+        "b": "To prove the user's identity to the TGS",
+        "c": "To request a new session key",
+        "d": "To prove the user's identity to the resource server"
       },
      "correctAnswer": "d",
       "difficulty": "beginner"
