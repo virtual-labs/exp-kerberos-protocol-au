@@ -1,4 +1,3 @@
-### Procedure
 
 This experiment simulates the Kerberos authentication protocol. Follow these steps to complete the simulation:
 
