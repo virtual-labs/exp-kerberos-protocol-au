@@ -1,4 +1,3 @@
-### Theory
 
 Kerberos is a network authentication protocol that enables secure communication over an insecure network. It allows clients and servers to prove their identities to each other without transmitting passwords over the network. The protocol relies on a trusted third party—called the **Kerberos Authentication Server (AS)**—to authenticate users and issue **tickets** that grant access to network services.
 
