@@ -1,0 +1,40 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which of the following statements is TRUE about the Kerberos protocol? ",
+      "answers": {
+        "a": " It uses symmetric encryption only.",
+        "b": "It is vulnerable to man-in-the-middle attacks.",
+        "c": "It requires the use of public key cryptography",
+        "d": "It uses a ticket-based system for authentication and authorization."
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is NOT a component of the Kerberos protocol? ",
+      "answers": {
+        "a": "Ticket Granting Service (TGS)",
+        "b": "Authentication Server (AS) ",
+        "c": "Key Distribution Centre (KDC)",
+        "d": "Resource Server (RS)"
+      },
+     "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In Kerberos, what does the client send to the Key Distribution Center to access a certain resource?",
+      "answers": {
+        "a": "token",
+        "b": "ticket",
+        "c": "random number",
+        "d": "ring"
+      },
+       
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
